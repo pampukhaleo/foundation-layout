@@ -1,0 +1,11 @@
+@import "../variables";
+
+.button {
+  padding: 17px 0 18px;
+  font-weight: $text-bold;
+  font-size: 18px;
+  Line-height: 13px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}

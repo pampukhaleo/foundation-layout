@@ -1,4 +1,6 @@
 @import "header/header";
+@import "header/headline";
+@import "buttons/buttons";
 
 * {
   box-sizing: border-box;
@@ -6,4 +8,5 @@
 
 html {
   font-family: 'Work Sans', sans-serif;
+  color: $color-text-main;
 }

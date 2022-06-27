@@ -13,13 +13,12 @@
   &__title {
     margin: auto 12px;
     padding: 0;
-    color: $color-text-main;
-    font-weight: 700;
+    font-weight: $text-bold;
     font-size: 20px;
     line-height: 25px;
   }
 
-  &__menu {
+  &__navigation {
     width: 58px;
     margin-left: auto;
     border-left: 1px solid #00000026;
@@ -28,7 +27,6 @@
       width: 18px;
       height: 13px;
       display: flex;
-      align-items: center;
       margin: 26px auto 25px;
       cursor: pointer;
     }

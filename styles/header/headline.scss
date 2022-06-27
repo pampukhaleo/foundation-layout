@@ -1,0 +1,43 @@
+@import "../variables";
+
+.headline {
+  background-color: #F3C6BD;
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    height: 205px;
+    margin: 35px 15px 0;
+    font-weight: $text-bold;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.3125px;
+  }
+
+  &__description {
+    height: 172px;
+    margin: 24px 15px 0;
+    font-weight: $text-normal;
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  &__start-btn {
+    width: 290px;
+    margin: 30px auto 0;
+    background-color: $blue;
+    color: $white;
+  }
+
+  &__learn-btn {
+    width: 290px;
+    margin: 15px auto 0;
+    background-color: $white;
+    color: $blue;
+  }
+
+  &__image {
+    max-width: 100%;
+    margin: 33px auto 36px;
+  }
+}
