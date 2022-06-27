@@ -1,0 +1,36 @@
+@import "../variables";
+
+.header {
+  height: 64px;
+  display: flex;
+
+  &__logo {
+    width: 48px;
+    height: 48px;
+    margin: auto 0 auto 15px;
+  }
+
+  &__title {
+    margin: auto 12px;
+    padding: 0;
+    color: $color-text-main;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  &__menu {
+    width: 58px;
+    margin-left: auto;
+    border-left: 1px solid #00000026;
+
+    &-icon {
+      width: 18px;
+      height: 13px;
+      display: flex;
+      align-items: center;
+      margin: 26px auto 25px;
+      cursor: pointer;
+    }
+  }
+}

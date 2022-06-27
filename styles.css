@@ -1,0 +1,40 @@
+.header {
+  height: 64px;
+  display: flex;
+}
+.header__logo {
+  width: 48px;
+  height: 48px;
+  margin: auto 0 auto 15px;
+}
+.header__title {
+  margin: auto 12px;
+  padding: 0;
+  color: #2B292D;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+}
+.header__menu {
+  width: 58px;
+  margin-left: auto;
+  border-left: 1px solid rgba(0, 0, 0, 0.1490196078);
+}
+.header__menu-icon {
+  width: 18px;
+  height: 13px;
+  display: flex;
+  align-items: center;
+  margin: 26px auto 25px;
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Work Sans", sans-serif;
+}
+
+/*# sourceMappingURL=styles.css.map */
