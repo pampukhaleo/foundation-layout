@@ -96,6 +96,25 @@
   margin-top: 6px;
 }
 
+.customers div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.customers div :last-child {
+  border-right: none;
+}
+.customers__container {
+  width: 107px;
+  height: 94px;
+  border-bottom: 1px solid #E3E3E3;
+  border-right: 1px solid #E3E3E3;
+}
+.customers__logo {
+  max-width: 70%;
+  filter: brightness(0);
+}
+
 * {
   box-sizing: border-box;
 }
