@@ -1,0 +1,26 @@
+@import "../variables";
+
+.about {
+  background-color: #F4F5F7;
+  font-size: 22px;
+  line-height: 32px;
+  padding: 46px 15px;
+
+  > .article:last-child {
+    margin-top: 20px;
+    height: 136px;
+  }
+}
+
+.article {
+  height: 180px;
+
+  &__title {
+    margin: 0;
+    font-weight: $text-bold;
+  }
+
+  &__description {
+    margin-top: 6px;
+  }
+}

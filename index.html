@@ -2,26 +2,28 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport"
-	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+	      name="viewport">
 	<link
-		rel="stylesheet"
+		crossorigin="anonymous"
 		href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
 		integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
-		crossorigin="anonymous"
+		rel="stylesheet"
 	/>
 	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="styles.css">
+	<link href="styles.css" rel="stylesheet">
 	<title>Foundation layout</title>
 </head>
 <body>
 <header class="header">
-	<img class="header__logo" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon.png" alt="Logo">
+	<img alt="Logo"
+	     class="header__logo"
+	     src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon.png">
 	<h2 class="header__title">Foundation</h2>
 	<nav class="header__navigation">
-		<img class="header__navigation-icon"
-		     src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png"
-		     alt="Hamburger Menu">
+		<img alt="Hamburger Menu"
+		     class="header__navigation-icon"
+		     src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png">
 	</nav>
 </header>
 <section class="headline">
@@ -37,7 +39,27 @@
 	<button class="headline__learn-btn button">
 		Learn More
 	</button>
-	<img class="headline__image" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png" alt="Reading man">
+	<img alt="Reading man"
+	     class="headline__image"
+	     src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png">
+</section>
+<section class="about">
+	<div class="article">
+		<h3 class="article__title">
+			What is it about?
+		</h3>
+		<div class="article__description">
+			Building a website for a startup that looks amazing is not a rocket science anymore.
+		</div>
+	</div>
+	<div class="article">
+		<h3 class="article__title">
+			Who is it for?
+		</h3>
+		<div class="article__description">
+			Startups, small companies and teams, entrepreneurs and web developers.
+		</div>
+	</div>
 </section>
 </body>
 </html>

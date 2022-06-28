@@ -1,3 +1,13 @@
+.button {
+  padding: 17px 0 18px;
+  font-weight: 700;
+  font-size: 18px;
+  Line-height: 13px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
 .header {
   height: 64px;
   display: flex;
@@ -64,14 +74,26 @@
   margin: 33px auto 36px;
 }
 
-.button {
-  padding: 17px 0 18px;
+.about {
+  background-color: #F4F5F7;
+  font-size: 22px;
+  line-height: 32px;
+  padding: 46px 15px;
+}
+.about > .article:last-child {
+  margin-top: 20px;
+  height: 136px;
+}
+
+.article {
+  height: 180px;
+}
+.article__title {
+  margin: 0;
   font-weight: 700;
-  font-size: 18px;
-  Line-height: 13px;
-  border: none;
-  border-radius: 2px;
-  cursor: pointer;
+}
+.article__description {
+  margin-top: 6px;
 }
 
 * {
