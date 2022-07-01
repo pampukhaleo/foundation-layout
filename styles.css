@@ -5,6 +5,7 @@
   Line-height: 13px;
   border: none;
   border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05), inset 0 1px 0 rgba(255, 255, 255, 0.1);
   cursor: pointer;
 }
 
@@ -278,6 +279,73 @@
 }
 .communication__options a {
   display: block;
+  font-weight: 700;
+}
+
+.audience {
+  padding: 50px 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgba(0, 161, 198, 0.0705882353);
+}
+.audience__name {
+  margin: 0;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 34px;
+}
+.audience__title {
+  margin: 0;
+  padding-top: 17px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: -0.357143px;
+}
+.audience__description {
+  padding-top: 18px;
+  font-size: 24px;
+  line-height: 34px;
+}
+.audience__start-btn {
+  margin-top: 30px;
+  background-color: #3040C4;
+  color: #FFFFFF;
+}
+.audience__learn-btn {
+  margin-top: 12px;
+  margin-bottom: 25px;
+  background-color: #FFFFFF;
+}
+.audience__user-card {
+  height: 300px;
+  margin-top: 15px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+.audience__user-card-container {
+  margin: auto;
+  padding: 22px 20px 33px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.audience__user-card-container_active {
+  height: 100%;
+  background-color: #3141C5;
+  color: #FFFFFF;
+  box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15), 0px 11px 55px rgba(0, 0, 0, 0.07);
+  border-radius: 8px;
+}
+.audience__user-card-container_image {
+  max-width: 100%;
+}
+.audience__user-card-container_caption {
+  padding-top: 22px;
   font-weight: 700;
 }
 
