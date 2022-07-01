@@ -44,10 +44,14 @@
     padding: 40px 0;
     display: flex;
     flex-direction: column;
-    border-bottom: 1px solid $grey;
 
     &_caption {
       margin-top: 17px;
+    }
+
+    &_border {
+      width: 50%;
+      border-bottom: 1px solid $grey;
     }
   }
 

@@ -115,12 +115,8 @@
   filter: brightness(0);
 }
 
-.features {
-  padding: 0 15px;
-}
 .features__container {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 40px 15px;
   border-bottom: 1px solid #E3E3E3;
 }
 .features > :first-child {
@@ -264,10 +260,13 @@
   padding: 40px 0;
   display: flex;
   flex-direction: column;
-  border-bottom: 1px solid #E3E3E3;
 }
 .communication__image-container_caption {
   margin-top: 17px;
+}
+.communication__image-container_border {
+  width: 50%;
+  border-bottom: 1px solid #E3E3E3;
 }
 .communication__options {
   margin-top: 33px;
