@@ -1,0 +1,59 @@
+@import "../variables";
+
+.order {
+  padding: 50px 15px;
+  background-color: #F4F5F7;
+  display: flex;
+  flex-direction: column;
+
+  &__image {
+    width: 200px;
+    display: flex;
+    margin: auto;
+  }
+
+  &__title {
+    margin: 0;
+    padding-top: 40px;
+    font-weight: $text-bold;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.25px;
+    text-align: center;
+  }
+
+  &__description {
+    height: 167px;
+    margin: 0;
+    padding-top: 18px;
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  &__form {
+    display: flex;
+    padding-top: 40px;
+    flex-direction: column;
+
+    &_input_email {
+      height: 48px;
+      text-align: center;
+      font-size: 18px;
+      line-height: 13px;
+      border: 1px solid rgba(43, 41, 45, 0.2);
+    }
+
+    &_start-btn {
+      margin-top: 12px;
+      background-color: $blue;
+      color: $white;
+    }
+  }
+
+
+  &__trial {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
