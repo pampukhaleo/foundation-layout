@@ -1,0 +1,60 @@
+@import "../variables";
+
+.feedback {
+  border-bottom: 1px solid $grey;
+
+  &__container {
+    padding: 39px 15px 50px
+  }
+
+
+  &__title {
+    margin: 0;
+    font-weight: $text-bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: $secondary-blue;
+  }
+
+  &__description {
+    margin: 29px 0 32px;
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  &__user {
+    font-size: 16px;
+    line-height: 24px;
+    color: #2B292D99;
+
+    & span {
+      display: block;
+      color: $color-text-main;
+      font-weight: $text-bold;
+    }
+  }
+
+
+  &__slide-container {
+    display: flex;
+    margin: auto;
+    width: 75px;
+  }
+
+  &__slide {
+    width: 12px;
+    height: 12px;
+    margin: 40px auto;
+    background-color: #2B292D33;
+    border: none;
+    border-radius: 50%;
+
+    &_active {
+      background-color: $secondary-blue;
+    }
+  }
+
+  &__image {
+    max-width: 100%;
+  }
+}
