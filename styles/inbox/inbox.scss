@@ -47,6 +47,10 @@
     &_text {
       font-size: 20px;
       line-height: 28px;
+
+      & span {
+        font-weight: $text-bold;
+      }
     }
 
     &_user {
@@ -63,10 +67,12 @@
         margin-left: 11px;
         font-size: 16px;
         line-height: 22px;
+        color: $color-text-opacity;
 
         & span {
           display: block;
           font-weight: $text-bold;
+          color: $color-text-main;
         }
       }
     }

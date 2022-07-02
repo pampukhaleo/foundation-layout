@@ -7,7 +7,6 @@
     padding: 39px 15px 50px
   }
 
-
   &__title {
     margin: 0;
     font-weight: $text-bold;
@@ -25,7 +24,7 @@
   &__user {
     font-size: 16px;
     line-height: 24px;
-    color: #2B292D99;
+    color: $color-text-opacity;
 
     & span {
       display: block;
@@ -33,7 +32,6 @@
       font-weight: $text-bold;
     }
   }
-
 
   &__slide-container {
     display: flex;

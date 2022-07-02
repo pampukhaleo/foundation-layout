@@ -35,12 +35,16 @@
     padding-top: 40px;
     flex-direction: column;
 
-    &_input_email {
+    &-input_email {
       height: 48px;
       text-align: center;
       font-size: 18px;
       line-height: 13px;
       border: 1px solid rgba(43, 41, 45, 0.2);
+
+      &::placeholder {
+        color: $color-text-main;
+      }
     }
 
     &_start-btn {
@@ -50,10 +54,10 @@
     }
   }
 
-
   &__trial {
     margin-top: 10px;
     font-size: 14px;
     line-height: 22px;
+    color: $color-text-opacity;
   }
 }
