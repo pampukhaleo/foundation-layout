@@ -1,0 +1,66 @@
+@import "../variables";
+@import "../breakpoints";
+
+.headline {
+  @include for-large {
+    padding: 0 130px;
+    position: relative;
+  }
+
+  &__title {
+    @include for-large {
+      width: 754px;
+      height: 165px;
+      margin: 0;
+      margin-top: 76px;
+      font-size: 80px;
+      line-height: 78px;
+      letter-spacing: -0.5px;
+      z-index: 2;
+    }
+  }
+
+  &__description {
+    @include for-large {
+      width: 456px;
+      height: 102px;
+      margin: 34px 0 0;
+      z-index: 2;
+    }
+  }
+
+  &__btn-container {
+    @include for-large {
+      height: 48px;
+      flex-direction: row;
+      margin: 58px auto 126px 0;
+      z-index: 2;
+    }
+  }
+
+  &__start-btn {
+    @include for-large {
+      width: 160px;
+      margin: 0;
+    }
+  }
+
+  &__learn-btn {
+    @include for-large {
+      width: 160px;
+      margin: 0;
+      margin-left: 10px;
+    }
+  }
+
+  &__image {
+    @include for-large {
+      width: 796px;
+      position: absolute;
+      top: 82px;
+      right: 24px;
+      margin: 0;
+      z-index: 1;
+    }
+  }
+}

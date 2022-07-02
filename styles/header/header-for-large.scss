@@ -3,7 +3,7 @@
 
 .header {
   @include for-large {
-    height: 62px;
+    height: 101px;
     background-color: $pink;
     padding: 39px 130px 0;
   }
@@ -12,6 +12,7 @@
     @include for-large {
       width: 60px;
       height: 60px;
+      margin: 0;
     }
   }
 
@@ -71,6 +72,7 @@
       margin-left: 56px;
       background-color: $blue;
       color: $white;
+      cursor: pointer;
     }
   }
 }

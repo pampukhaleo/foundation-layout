@@ -64,7 +64,7 @@
 
 @media screen and (min-width: 1400px) {
   .header {
-    height: 62px;
+    height: 101px;
     background-color: #F3C6BD;
     padding: 39px 130px 0;
   }
@@ -73,6 +73,7 @@
   .header__logo {
     width: 60px;
     height: 60px;
+    margin: 0;
   }
 }
 @media screen and (min-width: 1400px) {
@@ -126,6 +127,7 @@
     margin-left: 56px;
     background-color: #3040C4;
     color: #FFFFFF;
+    cursor: pointer;
   }
 }
 
@@ -149,21 +151,85 @@
   font-size: 24px;
   line-height: 34px;
 }
+.headline__btn-container {
+  display: flex;
+  flex-direction: column;
+}
 .headline__start-btn {
   width: 290px;
   margin: 30px auto 0;
   background-color: #3040C4;
   color: #FFFFFF;
+  cursor: pointer;
 }
 .headline__learn-btn {
   width: 290px;
   margin: 15px auto 0;
   background-color: #FFFFFF;
   color: #3040C4;
+  cursor: pointer;
 }
 .headline__image {
   max-width: 100%;
   margin: 33px auto 36px;
+}
+
+@media screen and (min-width: 1400px) {
+  .headline {
+    padding: 0 130px;
+    position: relative;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .headline__title {
+    width: 754px;
+    height: 165px;
+    margin: 0;
+    margin-top: 76px;
+    font-size: 80px;
+    line-height: 78px;
+    letter-spacing: -0.5px;
+    z-index: 2;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .headline__description {
+    width: 456px;
+    height: 102px;
+    margin: 34px 0 0;
+    z-index: 2;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .headline__btn-container {
+    height: 48px;
+    flex-direction: row;
+    margin: 58px auto 126px 0;
+    z-index: 2;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .headline__start-btn {
+    width: 160px;
+    margin: 0;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .headline__learn-btn {
+    width: 160px;
+    margin: 0;
+    margin-left: 10px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .headline__image {
+    width: 796px;
+    position: absolute;
+    top: 82px;
+    right: 24px;
+    margin: 0;
+    z-index: 1;
+  }
 }
 
 .about {
