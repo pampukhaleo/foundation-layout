@@ -18,12 +18,22 @@
   height: 48px;
   margin: auto 0 auto 15px;
 }
+.header__title-container {
+  height: 62px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 12px;
+}
 .header__title {
-  margin: auto 12px;
+  margin: 0;
   padding: 0;
   font-weight: 700;
   font-size: 20px;
   line-height: 25px;
+}
+.header__description {
+  display: none;
 }
 .header__navigation {
   width: 58px;
@@ -36,6 +46,87 @@
   display: flex;
   margin: 26px auto 25px;
   cursor: pointer;
+}
+.header__navigation_list {
+  display: none;
+}
+.header__navigation_list-item {
+  text-decoration: none;
+  color: #2B292D;
+  cursor: pointer;
+}
+.header__navigation_arrow {
+  display: none;
+}
+.header__start-btn {
+  display: none;
+}
+
+@media screen and (min-width: 1400px) {
+  .header {
+    height: 62px;
+    background-color: #F3C6BD;
+    padding: 39px 130px 0;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .header__logo {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .header__description {
+    display: block;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(43, 41, 45, 0.6);
+  }
+}
+@media screen and (min-width: 1400px) {
+  .header__navigation {
+    width: 292px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+    border: none;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .header__navigation-icon {
+    display: none;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .header__navigation_list {
+    width: 273px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .header__navigation_arrow {
+    width: 5px;
+    height: 8px;
+    display: flex;
+    align-items: center;
+    padding-left: 11px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .header__start-btn {
+    display: block;
+    width: 160px;
+    height: 48px;
+    margin-left: 56px;
+    background-color: #3040C4;
+    color: #FFFFFF;
+  }
 }
 
 .headline {

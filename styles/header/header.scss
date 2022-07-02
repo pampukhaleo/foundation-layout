@@ -1,4 +1,5 @@
 @import "../variables";
+@import "../breakpoints";
 
 .header {
   height: 64px;
@@ -10,12 +11,24 @@
     margin: auto 0 auto 15px;
   }
 
+  &__title-container {
+    height: 62px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 12px;
+  }
+
   &__title {
-    margin: auto 12px;
+    margin: 0;
     padding: 0;
     font-weight: $text-bold;
     font-size: 20px;
     line-height: 25px;
+  }
+
+  &__description {
+    display: none;
   }
 
   &__navigation {
@@ -30,5 +43,23 @@
       margin: 26px auto 25px;
       cursor: pointer;
     }
+
+    &_list {
+      display: none;
+
+      &-item {
+        text-decoration: none;
+        color: $color-text-main;
+        cursor: pointer;
+      }
+    }
+
+    &_arrow {
+      display: none;
+    }
+  }
+
+  &__start-btn {
+    display: none;
   }
 }
