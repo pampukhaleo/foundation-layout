@@ -3,10 +3,6 @@
 .communication {
   padding: 50px 15px;
 
-  > :last-child {
-    margin-top: 32px;
-  }
-
   &__name {
     margin: 0;
     font-weight: $text-bold;
@@ -71,6 +67,7 @@
     & a {
       display: block;
       font-weight: $text-bold;
+      cursor: pointer;
     }
   }
 }
