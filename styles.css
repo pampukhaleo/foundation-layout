@@ -634,6 +634,63 @@
   cursor: pointer;
 }
 
+@media screen and (min-width: 1400px) {
+  .communication {
+    padding: 110px 130px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .communication__info-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .communication__title {
+    width: 462px;
+    padding-top: 24px;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .communication__description {
+    width: 461px;
+    padding-top: 30px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .communication__start-btn {
+    margin-top: 39px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .communication__image-container {
+    width: 425px;
+    height: 426px;
+    padding: 0;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .communication__image-container_border {
+    margin-top: 74px;
+    width: 150px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .communication__options-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .communication__options {
+    width: 361px;
+    margin-top: 41px;
+  }
+}
+
 .audience {
   padding: 50px 15px;
   display: flex;

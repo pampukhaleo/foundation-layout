@@ -1,0 +1,67 @@
+@import "../variables";
+@import "../breakpoints";
+
+.communication {
+  @include for-large {
+    padding: 110px 130px;
+  }
+
+  &__info-container {
+    @include for-large {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  &__title {
+    @include for-large {
+      width: 462px;
+      padding-top: 24px;
+      font-size: 56px;
+      line-height: 56px;
+      letter-spacing: -0.5px
+    }
+  }
+
+  &__description {
+    @include for-large {
+      width: 461px;
+      padding-top: 30px;
+    }
+  }
+
+  &__start-btn {
+    @include for-large {
+      margin-top: 39px;
+    }
+  }
+
+  &__image-container {
+    @include for-large {
+      width: 425px;
+      height: 426px;
+      padding: 0;
+    }
+
+    &_border {
+      @include for-large {
+        margin-top: 74px;
+        width: 150px;
+      }
+    }
+  }
+
+  &__options-container {
+    @include for-large {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  &__options {
+    @include for-large {
+      width: 361px;
+      margin-top: 41px;
+    }
+  }
+}
