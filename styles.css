@@ -254,6 +254,27 @@
   margin-top: 6px;
 }
 
+@media screen and (min-width: 1400px) {
+  .about {
+    padding: 77px 130px;
+    display: flex;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .about > .article:last-child {
+    height: 102px;
+    margin-top: 0;
+    margin-left: 29px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .article {
+    height: 102px;
+    width: 555px;
+  }
+}
+
 .customers div {
   display: flex;
   justify-content: center;

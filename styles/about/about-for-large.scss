@@ -1,0 +1,23 @@
+@import "../breakpoints";
+
+.about {
+  @include for-large {
+    padding: 77px 130px;
+    display: flex;
+  }
+
+  > .article:last-child {
+    @include for-large {
+      height: 102px;
+      margin-top: 0;
+      margin-left: 29px;
+    }
+  }
+}
+
+.article {
+  @include for-large {
+    height: 102px;
+    width: 555px;
+  }
+}
