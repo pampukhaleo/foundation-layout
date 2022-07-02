@@ -294,6 +294,26 @@
   filter: brightness(0);
 }
 
+@media screen and (min-width: 1400px) {
+  .customers {
+    height: 105px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 130px 0;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .customers div {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .customers__container {
+    height: 74px;
+    border: none;
+  }
+}
+
 .features__container {
   padding: 40px 15px;
   border-bottom: 1px solid #E3E3E3;

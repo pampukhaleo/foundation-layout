@@ -1,0 +1,24 @@
+@import "../variables";
+@import "../breakpoints";
+
+.customers {
+  @include for-large {
+    height: 105px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 130px 0;
+  }
+
+  div {
+    @include for-large {
+      width: 50%;
+    }
+  }
+
+  &__container {
+    @include for-large {
+      height: 74px;
+      border: none;
+    }
+  }
+}
