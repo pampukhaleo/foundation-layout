@@ -1,0 +1,91 @@
+@import "../variables";
+@import "../breakpoints";
+
+.features-large {
+  padding: 106px 130px 111px;
+  position: relative;
+
+  @include for-small {
+    display: none;
+  }
+
+  &__name {
+    margin: 0;
+    font-weight: $text-bold;
+    font-size: 22px;
+    line-height: 34px;
+    color: $green;
+  }
+
+  &__title {
+    width: 462px;
+    margin: 24px 0 0;
+    font-weight: $text-bold;
+    font-size: 56px;
+    line-height: 56px;
+  }
+
+  &__description {
+    width: 461px;
+    margin: 30px 0 42px;
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    &-item {
+      width: 459px;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid #2B292D26;
+      cursor: pointer;
+
+      &_active {
+        height: 105px;
+        flex-direction: column;
+        align-items: flex-start;
+        color: $secondary-blue;
+        border-bottom: 3px solid $secondary-blue;
+      }
+
+      &_icon {
+        height: 15px;
+        width: 15px;
+      }
+
+      &_title {
+        margin-left: 15px;
+        font-weight: $text-bold;
+        font-size: 22px;
+        line-height: 26px;
+      }
+
+      &_description {
+        width: 459px;
+        margin: 10px 0 0;
+        font-size: 18px;
+        line-height: 26px;
+        color: $color-text-main;
+      }
+    }
+  }
+
+  &__hidden-image {
+    max-width: 100%;
+    position: absolute;
+    bottom: 270px;
+    left: 0;
+  }
+
+  &__invision-image {
+    height: 595px;
+    position: absolute;
+    top: 100px;
+    right: -10px
+  }
+}

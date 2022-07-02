@@ -1,6 +1,11 @@
 @import "../variables";
+@import "../breakpoints";
 
 .features {
+
+  @include for-large {
+    display: none;
+  }
 
   &__container {
     padding: 40px 15px;
