@@ -1,0 +1,74 @@
+@import "../variables";
+@import "../breakpoints";
+
+.audience {
+  @include for-large {
+    padding: 108px 130px 110px;
+    align-items: center;
+  }
+
+  &__title {
+    @include for-large {
+      width: 555px;
+      padding-top: 24px;
+      font-size: 56px;
+      line-height: 56px;
+      letter-spacing: -0.5px;
+    }
+  }
+
+  &__description {
+    @include for-large {
+      width: 555px;
+      padding-top: 30px;
+    }
+  }
+
+  &__btn-container {
+    @include for-large {
+      width: 330px;
+      margin-top: 38px;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      height: 48px;
+    }
+  }
+
+  &__start-btn {
+    @include for-large {
+      width: 160px;
+      height: 48px;
+      margin: 0;
+    }
+  }
+
+  &__learn-btn {
+    @include for-large {
+      width: 160px;
+      height: 48px;
+      margin: 0;
+    }
+  }
+
+  &__user-card {
+    @include for-large {
+      margin: 0;
+    }
+
+    &_container {
+      @include for-large {
+        width: 1140px;
+        margin-top: 111px;
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+
+    &_figure {
+      @include for-large {
+        width: 262px;
+      }
+    }
+  }
+}
