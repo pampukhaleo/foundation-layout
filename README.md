@@ -8,6 +8,6 @@ The tech stack is:
 - Flexbox
 - Sass (Scss)
 - BEM methodology
-- 
+
 Author
 Leonid Pampukha
