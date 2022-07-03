@@ -1,0 +1,38 @@
+@import "../variables";
+@import "../breakpoints";
+
+.feedback {
+
+  &__container {
+    @include for-large {
+      padding: 76px 130px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      position: relative;
+    }
+  }
+
+  &__description {
+    @include for-large {
+      width: 750px;
+    }
+  }
+
+  &__slide {
+    @include for-large {
+      margin: 38px auto 63px;
+    }
+  }
+
+  &__image {
+    @include for-large {
+      width: 273px;
+      height: 243px;
+      position: absolute;
+      bottom: 0;
+      right: -15px;
+    }
+  }
+}

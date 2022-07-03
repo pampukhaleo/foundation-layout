@@ -884,6 +884,36 @@
   max-width: 100%;
 }
 
+@media screen and (min-width: 1400px) {
+  .feedback__container {
+    padding: 76px 130px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .feedback__description {
+    width: 750px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .feedback__slide {
+    margin: 38px auto 63px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .feedback__image {
+    width: 273px;
+    height: 243px;
+    position: absolute;
+    bottom: 0;
+    right: -15px;
+  }
+}
+
 .hiring {
   padding: 50px 15px;
   display: flex;

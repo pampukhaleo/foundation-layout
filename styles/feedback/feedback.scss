@@ -1,10 +1,11 @@
 @import "../variables";
+@import "../breakpoints";
 
 .feedback {
   border-bottom: 1px solid $grey;
 
   &__container {
-    padding: 39px 15px 50px
+    padding: 39px 15px 50px;
   }
 
   &__title {
