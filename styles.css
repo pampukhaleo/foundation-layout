@@ -973,6 +973,70 @@
   align-items: center;
   justify-content: center;
   background-color: #D5D4D5;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1400px) {
+  .hiring {
+    padding: 106px 325px 110px;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .hiring__title {
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .hiring__description {
+    width: 555px;
+    padding-top: 20px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .hiring__start-btn {
+    width: 247px;
+    margin: 28px 0 100px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .hiring__vacancy {
+    width: 750px;
+    height: 81px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  .hiring__vacancy:hover {
+    color: #FFFFFF;
+    background-color: #3142C6;
+  }
+  .hiring__vacancy:hover .hiring__vacancy-info_description {
+    color: #FFFFFF;
+  }
+  .hiring__vacancy:hover .hiring__vacancy-info_arrow {
+    width: 8px;
+    height: 12px;
+    margin-right: 20px;
+    background-color: #3142C6;
+    content: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right-white.png");
+  }
+}
+@media screen and (min-width: 1400px) {
+  .hiring__vacancy-info {
+    width: 90%;
+    padding: 0 25px;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .hiring__vacancy-info_arrow {
+    background-color: #FFFFFF;
+  }
 }
 
 .order {

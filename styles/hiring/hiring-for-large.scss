@@ -1,0 +1,72 @@
+@import "../variables";
+@import "../breakpoints";
+
+.hiring {
+  @include for-large {
+    padding: 106px 325px 110px;
+    align-items: center;
+  }
+
+  &__title {
+    @include for-large {
+      font-size: 56px;
+      line-height: 56px;
+      letter-spacing: -0.5px;
+    }
+  }
+
+  &__description {
+    @include for-large {
+      width: 555px;
+      padding-top: 20px;
+    }
+  }
+
+  &__start-btn {
+    @include for-large {
+      width: 247px;
+      margin: 28px 0 100px;
+    }
+  }
+
+  &__vacancy {
+    @include for-large {
+      width: 750px;
+      height: 81px;
+      margin-top: 20px;
+      cursor: pointer;
+
+      &:hover {
+        color: $white;
+        background-color: $secondary-blue;
+      }
+
+      &:hover &-info_description {
+        color: $white;
+      }
+
+      &:hover &-info_arrow {
+        width: 8px;
+        height: 12px;
+        margin-right: 20px;
+        background-color: $secondary-blue;
+        content:url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right-white.png")
+      }
+    }
+
+    &-info {
+      @include for-large {
+        width: 90%;
+        padding: 0 25px;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      &_arrow {
+        @include for-large {
+          background-color: $white;
+        }
+      }
+    }
+  }
+}
