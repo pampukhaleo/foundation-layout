@@ -23,6 +23,7 @@
 @import "order/order-for-large";
 @import "footer/footer";
 @import "footer/footer-for-large";
+@import "breakpoints";
 
 * {
   box-sizing: border-box;
@@ -31,4 +32,11 @@
 html {
   font-family: 'Work Sans', sans-serif;
   color: $color-text-main;
+}
+
+body {
+  max-width: 1400px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
 }

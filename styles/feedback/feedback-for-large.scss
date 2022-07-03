@@ -3,8 +3,8 @@
 
 .feedback {
 
-  &__container {
-    @include for-large {
+  @include for-large {
+    &__container {
       padding: 76px 130px 0;
       display: flex;
       flex-direction: column;
@@ -22,7 +22,7 @@
 
   &__slide {
     @include for-large {
-      margin: 38px auto 63px;
+      margin: 38px auto 64px;
     }
   }
 

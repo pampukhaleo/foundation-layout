@@ -256,7 +256,7 @@
 
 @media screen and (min-width: 1400px) {
   .about {
-    padding: 77px 130px;
+    padding: 77px 130px 76px;
     display: flex;
   }
 }
@@ -901,7 +901,7 @@
 }
 @media screen and (min-width: 1400px) {
   .feedback__slide {
-    margin: 38px auto 63px;
+    margin: 38px auto 64px;
   }
 }
 @media screen and (min-width: 1400px) {
@@ -1318,6 +1318,13 @@
 html {
   font-family: "Work Sans", sans-serif;
   color: #2B292D;
+}
+
+body {
+  max-width: 1400px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
 }
 
 /*# sourceMappingURL=styles.css.map */
