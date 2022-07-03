@@ -549,44 +549,61 @@
 <!-- FOOTER -->
 
 <footer class="footer">
-	<div class="footer__logo">
-		<img alt="Logo"
-		     class="footer__logo_image"
-		     src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-dark.png">
-		<h2 class="footer__logo_title">
-			Foundation
-		</h2>
-		<p class="footer__logo_description">
-			Startup landing template
-		</p>
-		<img alt="App store"
-		     class="footer__logo_app-btn"
-		     src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/app-store.png">
-		<img alt="Google play"
-		     class="footer__logo_app-btn"
-		     src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/google-play.png">
+	<div class="footer__main-container">
+		<div class="footer__logo">
+			<div class="footer__logo_container">
+				<img alt="Logo"
+				     class="footer__logo_image"
+				     src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-dark.png">
+				<div class="footer__logo_title-container">
+					<h2 class="footer__logo_title">
+						Foundation
+					</h2>
+					<p class="footer__logo_description">
+						Startup landing template
+					</p>
+				</div>
+			</div>
+			<p class="footer__logo-text">
+				Foundation is a website template for startups and small teams. It helps to build a website in no time.
+			</p>
+			<div class="footer__logo_app-btn_container">
+				<img alt="App store"
+				     class="footer__logo_app-btn"
+				     src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/app-store.png">
+				<img alt="Google play"
+				     class="footer__logo_app-btn"
+				     src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/google-play.png">
+			</div>
+		</div>
+		<div class="footer__additional-navigation">
+			<div class="footer__additional-navigation_container">
+				<h3 class="footer__additional-navigation_title">
+					Product
+				</h3>
+				<ul class="footer__additional-navigation_list">
+					<a class="footer__additional-navigation_list-item" href="#">Acquire Users</a>
+					<a class="footer__additional-navigation_list-item" href="#">Content Marketing</a>
+					<a class="footer__additional-navigation_list-item" href="#">Website Templates</a>
+					<a class="footer__additional-navigation_list-item" href="#">CustomerManagement</a>
+					<a class="footer__additional-navigation_list-item" href="#">Virtual Inbox</a>
+				</ul>
+			</div>
+			<div class="footer__additional-navigation_container">
+				<h3 class="footer__additional-navigation_title">
+					Company
+				</h3>
+				<ul class="footer__additional-navigation_list">
+					<a class="footer__additional-navigation_list-item" href="#">About Foundation</a>
+					<a class="footer__additional-navigation_list-item" href="#">Brand Guidelines</a>
+					<a class="footer__additional-navigation_list-item" href="#">Press Kit</a>
+					<a class="footer__additional-navigation_list-item" href="#">Support</a>
+				</ul>
+			</div>
+		</div>
 	</div>
-	<div class="footer__additional-navigation">
-		<h3 class="footer__additional-navigation_title">
-			Product
-		</h3>
-		<ul class="footer__additional-navigation_list">
-			<a class="footer__additional-navigation_list-item" href="#">Acquire Users</a>
-			<a class="footer__additional-navigation_list-item" href="#">Content Marketing</a>
-			<a class="footer__additional-navigation_list-item" href="#">Website Templates</a>
-			<a class="footer__additional-navigation_list-item" href="#">CustomerManagement</a>
-			<a class="footer__additional-navigation_list-item" href="#">Virtual Inbox</a>
-		</ul>
-		<h3 class="footer__additional-navigation_title">
-			Company
-		</h3>
-		<ul class="footer__additional-navigation_list">
-			<a class="footer__additional-navigation_list-item" href="#">About Foundation</a>
-			<a class="footer__additional-navigation_list-item" href="#">Brand Guidelines</a>
-			<a class="footer__additional-navigation_list-item" href="#">Press Kit</a>
-			<a class="footer__additional-navigation_list-item" href="#">Support</a>
-		</ul>
-	</div>
+</footer>
+<section class="footer__legal-links_container">
 	<ul class="footer__legal-links">
 		<a class="footer__legal-links_item" href="#">Terms</a>
 		<a class="footer__legal-links_item" href="#">Privacy</a>
@@ -609,7 +626,6 @@
 			     src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-linkedIn.png">
 		</a>
 	</div>
-</footer>
-
+</section>
 </body>
 </html>
