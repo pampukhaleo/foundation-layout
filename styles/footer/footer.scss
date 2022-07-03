@@ -1,56 +1,21 @@
 @import "../variables";
-@import "../breakpoints";
 
 .footer {
-
-  @include for-large {
-    border-bottom: 1px solid $grey;
-
-    &__main-container {
-      display: flex;
-      padding: 43px 130px 59px;
-    }
-  }
 
   &__logo {
     padding: 40px 15px;
     text-align: center;
     border-bottom: 1px solid $grey;
 
-    @include for-large {
-      padding: 0;
-      text-align: left;
-      border: none;
-
-      &_container {
-        display: flex;
-        //padding: 43px 130px 15px;
-      }
-    }
-
     &-text {
       display: none;
       padding: 0;
       margin: 0;
-
-      @include for-large {
-        display: block;
-        width: 360px;
-        margin-top: 26px;
-        font-size: 18px;
-        line-height: 26px;
-        color: $color-text-opacity;
-      }
     }
 
     &_image {
       margin-left: 7px;
       margin-bottom: 20px;
-
-      @include for-large {
-        height: 60px;
-        margin: 0;
-      }
     }
 
     &_title {
@@ -58,15 +23,6 @@
       font-weight: $text-bold;
       font-size: 20px;
       line-height: 25px;
-
-      @include for-large {
-        &-container {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          margin-left: 15px;
-        }
-      }
     }
 
     &_description {
@@ -85,28 +41,11 @@
           margin-right: 0;
         }
       }
-
-      @include for-large {
-        margin-top: 25px;
-      }
     }
   }
 
   &__additional-navigation {
     padding: 0 15px;
-
-    @include for-large {
-      display: flex;
-      padding: 0;
-
-      &_container {
-        margin-left: 126px;
-
-        &:last-child {
-          margin-left: 84px;
-        }
-      }
-    }
 
     &_title {
       margin: 0;
@@ -114,11 +53,6 @@
       font-weight: $text-bold;
       font-size: 22px;
       line-height: 28px;
-
-      @include for-large {
-        margin: 0;
-        margin-top: 18px;
-      }
     }
 
     &_list {
@@ -143,16 +77,6 @@
     margin: 0;
     padding: 30px 15px;
 
-    @include for-large {
-      padding: 0;
-
-      &_container {
-        display: flex;
-        padding: 13px 130px 15px;
-        justify-content: space-between;
-      }
-    }
-
     &_item {
       margin-right: 10px;
       text-decoration: none;
@@ -165,12 +89,6 @@
 
   &__social-links {
     padding: 0 15px 22px;
-
-    @include for-large {
-      display: flex;
-      align-items: center;
-      padding: 0;
-    }
 
     &_item {
       margin-right: 10px;
