@@ -1,0 +1,61 @@
+@import "../variables";
+@import "../breakpoints";
+
+.order {
+  @include for-large {
+    padding: 73px 228px 72px 224px;
+    flex-direction: row;
+
+    &__container {
+      margin-left: 122px;
+    }
+  }
+
+  &__image {
+    @include for-large {
+      width: 270px;
+      height: 296px;
+      margin: 0;
+    }
+  }
+
+  &__title {
+    @include for-large {
+      height: 48px;
+      padding: 0;
+      text-align: left;
+    }
+  }
+
+  &__description {
+    @include for-large {
+      height: 76px;
+      padding-top: 12px;
+    }
+  }
+
+  &__form {
+    @include for-large {
+      height: 74px;
+      padding-top: 26px;
+      flex-direction: row;
+    }
+
+    &-input_email {
+      @include for-large {
+        width: 385px;
+        text-align: left;
+        padding-left: 15px;
+      }
+    }
+
+    &_start-btn {
+      @include for-large {
+        width: 160px;
+        height: 48px;
+        margin: 0;
+        margin-left: 10px;
+      }
+    }
+  }
+}
