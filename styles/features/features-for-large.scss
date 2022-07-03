@@ -44,13 +44,22 @@
       align-items: center;
       border-bottom: 1px solid #2B292D26;
       cursor: pointer;
+      transition: height 0.1s ease;
 
-      &_active {
-        height: 105px;
+      &:hover {
+        height: 115px;
         flex-direction: column;
         align-items: flex-start;
         color: $secondary-blue;
         border-bottom: 3px solid $secondary-blue;
+      }
+
+      &:hover &_container {
+        margin-top: 10px;
+      }
+
+      &:hover &_description{
+        display: block;
       }
 
       &_icon {
@@ -66,6 +75,7 @@
       }
 
       &_description {
+        display: none;
         width: 459px;
         margin: 10px 0 0;
         font-size: 18px;
@@ -78,7 +88,7 @@
   &__hidden-image {
     max-width: 100%;
     position: absolute;
-    bottom: 270px;
+    top: 380px;
     left: 0;
   }
 
