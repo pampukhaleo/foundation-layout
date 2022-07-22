@@ -96,7 +96,8 @@
       cursor: pointer;
 
       &-image {
-        max-width: 100%;
+        filter: sepia(100%) hue-rotate(190deg);
+        //width: 25px;
       }
     }
   }

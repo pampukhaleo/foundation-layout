@@ -41,7 +41,7 @@
       }
     }
 
-    &_list {
+    &-list {
       @include for-large {
         width: 273px;
         display: flex;
