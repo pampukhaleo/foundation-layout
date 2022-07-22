@@ -1,3 +1,5 @@
+@import "variables";
+@import "breakpoints";
 @import "buttons/buttons";
 @import "header/header";
 @import "header/header-for-large";
@@ -23,8 +25,7 @@
 @import "order/order-for-large";
 @import "footer/footer";
 @import "footer/footer-for-large";
-@import "breakpoints";
-@import "variables";
+
 
 * {
   box-sizing: border-box;

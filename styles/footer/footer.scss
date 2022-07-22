@@ -1,5 +1,3 @@
-@import "../variables";
-
 .footer {
 
   &__logo {
@@ -96,8 +94,7 @@
       cursor: pointer;
 
       &-image {
-        filter: sepia(100%) hue-rotate(190deg);
-        //width: 25px;
+        color: $color-text-opacity;
       }
     }
   }

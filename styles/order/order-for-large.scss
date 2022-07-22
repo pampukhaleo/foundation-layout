@@ -1,6 +1,3 @@
-@import "../variables";
-@import "../breakpoints";
-
 .order {
   @include for-large {
     padding: 73px 228px 72px 224px;

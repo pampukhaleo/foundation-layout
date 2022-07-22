@@ -370,10 +370,11 @@
 .features-large {
   padding: 106px 130px 111px;
   position: relative;
+  display: none;
 }
-@media screen and (max-width: 1399px) {
+@media screen and (min-width: 1400px) {
   .features-large {
-    display: none;
+    display: block;
   }
 }
 .features-large__name {
@@ -1227,7 +1228,7 @@
   cursor: pointer;
 }
 .footer__social-links_item-image {
-  filter: sepia(100%) hue-rotate(190deg);
+  color: rgba(43, 41, 45, 0.6);
 }
 
 @media screen and (min-width: 1400px) {

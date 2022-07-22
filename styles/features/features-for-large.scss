@@ -1,12 +1,11 @@
-@import "../variables";
-@import "../breakpoints";
-
 .features-large {
   padding: 106px 130px 111px;
   position: relative;
 
-  @include for-small {
-    display: none;
+  display: none;
+
+  @include for-large {
+    display: block;
   }
 
   &__name {
